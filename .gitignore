@@ -1,0 +1,4 @@
+ef-core-cosmos-db/appsettings.Local.json
+**/bin/**/*
+**/obj/**/*
+**/.vs/**/*
