@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EFCoreCosmos.Persistence\EFCoreCosmos.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Serilog">
+      <HintPath>..\..\..\..\..\.nuget\packages\serilog\2.7.1\lib\netstandard1.3\Serilog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

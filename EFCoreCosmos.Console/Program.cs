@@ -1,15 +1,16 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using AutofacSerilogIntegration;
-using EFCoreCosmoDbSample.Application;
-using EFCoreCosmoDbSample.Domain;
-using EFCoreCosmoDbSample.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using Serilog.Core;
 using System;
+using EFCoreCosmos.Application;
+using EFCoreCosmos.Domain;
+using EFCoreCosmos.Persistence;
+using IContainer = Autofac.IContainer;
 
 namespace EFCoreCosmoDbSample
 {
@@ -36,7 +37,9 @@ namespace EFCoreCosmoDbSample
 
                 var post = new Post();
                 Console.WriteLine("Who's the author?");
-                post.Author = Console.ReadLine();
+                post.Author = new Author { Name = Console.ReadLine() };
+                Console.WriteLine("What's the category?");
+                post.Category = new Category { Name = Console.ReadLine() };
                 Console.WriteLine("");
                 Console.WriteLine("Give me a title:");
                 post.Title = Console.ReadLine();
@@ -61,6 +64,8 @@ namespace EFCoreCosmoDbSample
 
             Configuration = configBuilder.Build();
             Container = IocConfig();
+
+
         }
 
         public static IContainer IocConfig()
@@ -70,11 +75,11 @@ namespace EFCoreCosmoDbSample
 
             builder.RegisterType<AddPostCommand>().As<IAddPostCommand>();
 
-            serviceCollection.AddEntityFrameworkCosmosSql();
+            serviceCollection.AddEntityFrameworkCosmos();
             serviceCollection.AddDbContext<BlogDbContext>(options =>
             {
-                options.UseCosmosSql(
-                    new Uri(Configuration["CosmosDb:EndpointUrl"]),
+                options.UseCosmos(
+                    Configuration["CosmosDb:EndpointUrl"],
                     Configuration["CosmosDb:PrivateKey"],
                     Configuration["CosmosDb:DbName"]);
             });
@@ -84,6 +89,9 @@ namespace EFCoreCosmoDbSample
 
             builder.Populate(serviceCollection);
             IContainer container = builder.Build();
+
+            container.Resolve<BlogDbContext>().Database.EnsureCreated();
+
             return container;
         }
 

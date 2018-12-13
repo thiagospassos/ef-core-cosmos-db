@@ -1,10 +1,10 @@
-﻿using EFCoreCosmoDbSample.Domain;
-using EFCoreCosmoDbSample.Persistence;
-using Serilog;
-using System;
+﻿using System;
 using System.Threading.Tasks;
+using EFCoreCosmos.Domain;
+using EFCoreCosmos.Persistence;
+using Serilog;
 
-namespace EFCoreCosmoDbSample.Application
+namespace EFCoreCosmos.Application
 {
     public class AddPostCommand : IAddPostCommand
     {
@@ -30,13 +30,12 @@ namespace EFCoreCosmoDbSample.Application
             {
                 Log
                     .ForContext("post", entity)
-                    .Error(ex,"Well, something bad happened");
+                    .Error(ex, "Well, something bad happened");
             }
 
             return null;
         }
     }
-
     public interface IAddPostCommand
     {
         Task<Post> Execute(Post entity);
