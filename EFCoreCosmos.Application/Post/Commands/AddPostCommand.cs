@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using EFCoreCosmos.Domain;
 using EFCoreCosmos.Persistence;
 using Serilog;
 
-namespace EFCoreCosmos.Application
+namespace EFCoreCosmos.Application.Post.Commands
 {
     public class AddPostCommand : IAddPostCommand
     {
@@ -15,7 +14,7 @@ namespace EFCoreCosmos.Application
             _dbContext = dbContext;
         }
 
-        public async Task<Post> Execute(Post entity)
+        public async Task<Domain.Post> Execute(Domain.Post entity)
         {
             try
             {
@@ -38,6 +37,6 @@ namespace EFCoreCosmos.Application
     }
     public interface IAddPostCommand
     {
-        Task<Post> Execute(Post entity);
+        Task<Domain.Post> Execute(Domain.Post entity);
     }
 }

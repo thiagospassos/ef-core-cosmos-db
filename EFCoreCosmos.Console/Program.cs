@@ -1,15 +1,17 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using AutofacSerilogIntegration;
+using EFCoreCosmos.Application.Post.Commands;
+using EFCoreCosmos.Application.Post.Queries;
+using EFCoreCosmos.Domain;
+using EFCoreCosmos.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using Serilog.Core;
+using ServiceStack.Text;
 using System;
-using EFCoreCosmos.Application;
-using EFCoreCosmos.Domain;
-using EFCoreCosmos.Persistence;
 using IContainer = Autofac.IContainer;
 
 namespace EFCoreCosmoDbSample
@@ -24,6 +26,7 @@ namespace EFCoreCosmoDbSample
             ConfigureServices();
 
             var cmd = Container.Resolve<IAddPostCommand>();
+            var query = Container.Resolve<IGetPostsQuery>();
 
             while (true)
             {
@@ -52,6 +55,8 @@ namespace EFCoreCosmoDbSample
                 Console.WriteLine($"The newly created post's id is {entity.Id}");
             }
 
+            Console.Write(query.Execute().Dump());
+
             Console.WriteLine("----------- Press any key to get out -----------");
             Console.ReadKey();
         }
@@ -73,7 +78,9 @@ namespace EFCoreCosmoDbSample
             var serviceCollection = new ServiceCollection();
             var builder = new ContainerBuilder();
 
-            builder.RegisterType<AddPostCommand>().As<IAddPostCommand>();
+            builder.RegisterAssemblyTypes(typeof(AddPostCommand).Assembly)
+                .Where(x => x.Name.EndsWith("Command") || x.Name.EndsWith("Query"))
+                .AsImplementedInterfaces();
 
             serviceCollection.AddEntityFrameworkCosmos();
             serviceCollection.AddDbContext<BlogDbContext>(options =>
