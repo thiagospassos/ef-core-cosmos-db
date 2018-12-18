@@ -5,13 +5,15 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreCosmos.Console", "EFCoreCosmos.Console\EFCoreCosmos.Console.csproj", "{C42898E7-7FED-422B-95D5-85E83EAB53A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreCosmos.Persistence", "EFCoreCosmos.Persistence\EFCoreCosmos.Persistence.csproj", "{78A23C1F-A6DE-49D7-AC52-3C90CF81F7B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreCosmos.Persistence", "EFCoreCosmos.Persistence\EFCoreCosmos.Persistence.csproj", "{78A23C1F-A6DE-49D7-AC52-3C90CF81F7B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreCosmos.Domain", "EFCoreCosmos.Domain\EFCoreCosmos.Domain.csproj", "{5A4B2860-6579-46AA-9751-DE36D1145869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreCosmos.Domain", "EFCoreCosmos.Domain\EFCoreCosmos.Domain.csproj", "{5A4B2860-6579-46AA-9751-DE36D1145869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreCosmos.Application", "EFCoreCosmos.Application\EFCoreCosmos.Application.csproj", "{FB156DB2-13C5-42D2-B864-C81491610FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreCosmos.Application", "EFCoreCosmos.Application\EFCoreCosmos.Application.csproj", "{FB156DB2-13C5-42D2-B864-C81491610FEA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{115531CE-404F-4B68-871A-EA0F5038E0C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreCosmos.Web", "EFCoreCosmos.Web\EFCoreCosmos.Web.csproj", "{C03A7068-D481-4962-A99D-15A9B95CA50C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +37,17 @@ Global
 		{FB156DB2-13C5-42D2-B864-C81491610FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB156DB2-13C5-42D2-B864-C81491610FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB156DB2-13C5-42D2-B864-C81491610FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C03A7068-D481-4962-A99D-15A9B95CA50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C03A7068-D481-4962-A99D-15A9B95CA50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C03A7068-D481-4962-A99D-15A9B95CA50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C03A7068-D481-4962-A99D-15A9B95CA50C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C42898E7-7FED-422B-95D5-85E83EAB53A8} = {115531CE-404F-4B68-871A-EA0F5038E0C5}
+		{C03A7068-D481-4962-A99D-15A9B95CA50C} = {115531CE-404F-4B68-871A-EA0F5038E0C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {627636C3-83E6-4387-AB36-23DA2D78E26D}

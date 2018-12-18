@@ -3,3 +3,4 @@ ef-core-cosmos-db/appsettings.Local.json
 **/obj/**/*
 **/.vs/**/*
 /EFCoreCosmos.Console/appsettings.Local.json
+/EFCoreCosmos.Web/appsettings.Local.json

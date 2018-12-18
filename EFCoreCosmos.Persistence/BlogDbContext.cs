@@ -1,10 +1,8 @@
-﻿using System.Linq;
-using System.Reflection;
-using EFCoreCosmos.Domain;
+﻿using EFCoreCosmos.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Cosmos.Metadata.Internal;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Linq;
+using System.Reflection;
 
 namespace EFCoreCosmos.Persistence
 {
@@ -12,27 +10,31 @@ namespace EFCoreCosmos.Persistence
     {
         public BlogDbContext(DbContextOptions options) : base(options)
         {
+            Database.EnsureCreated();
         }
 
         protected BlogDbContext()
         {
+            Database.EnsureCreated();
         }
 
         public DbSet<Post> Posts { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Author> Authors { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            //If this is not set then the default name will be the name of the DbContext => BlogDbContext
-            modelBuilder.GetInfrastructure().Cosmos(ConfigurationSource.Convention).DefaultContainerName = "Default";
 
-            OneCollectionPerDbSet(modelBuilder);
-
-            ////Manually setting container names for DbSets
-            //modelBuilder.Entity<Category>().Metadata.Cosmos().ContainerName = nameof(Categories);
-            //modelBuilder.Entity<Post>().Metadata.Cosmos().ContainerName = nameof(Posts);
-        }
+        //        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //        {
+        //            //If this is not set then the default name will be the name of the DbContext => BlogDbContext
+        //            modelBuilder.GetInfrastructure().Cosmos(ConfigurationSource.Convention).DefaultContainerName = "Default";
+        //
+        ////            modelBuilder.Entity<Post>().Metadata.Cosmos().ContainerName = nameof(Posts);
+        //            ////Manually setting container names for DbSets
+        ////            modelBuilder.Entity<Category>().Metadata.Cosmos().ContainerName = nameof(Categories);
+        //            
+        ////            OneCollectionPerDbSet(modelBuilder);
+        //
+        //        }
 
         private void OneCollectionPerDbSet(ModelBuilder modelBuilder)
         {

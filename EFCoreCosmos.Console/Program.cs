@@ -2,8 +2,8 @@
 using Autofac.Extensions.DependencyInjection;
 using AutofacSerilogIntegration;
 using EFCoreCosmos.Application.Post.Commands;
+using EFCoreCosmos.Application.Post.Models;
 using EFCoreCosmos.Application.Post.Queries;
-using EFCoreCosmos.Domain;
 using EFCoreCosmos.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -38,11 +38,11 @@ namespace EFCoreCosmoDbSample
                     break;
                 }
 
-                var post = new Post();
+                var post = new PostModel();
                 Console.WriteLine("Who's the author?");
-                post.Author = new Author { Name = Console.ReadLine() };
+                post.Author = Console.ReadLine();
                 Console.WriteLine("What's the category?");
-                post.Category = new Category { Name = Console.ReadLine() };
+                post.Category = Console.ReadLine();
                 Console.WriteLine("");
                 Console.WriteLine("Give me a title:");
                 post.Title = Console.ReadLine();

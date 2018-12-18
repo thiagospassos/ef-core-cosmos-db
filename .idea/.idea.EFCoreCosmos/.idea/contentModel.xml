@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Thiago\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_EFCoreCosmos.-855269409.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Thiago\Source\Repos\_Demos\ef-core-cosmos-db" t="IncludeFlat">
+      <e p="EFCoreCosmos.Application" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EFCoreCosmos.Application.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="EFCoreCosmos.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Post" t="Include">
+          <e p="Commands" t="Include">
+            <e p="AddPostCommand.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="PostModel.cs" t="Include" />
+          </e>
+          <e p="Queries" t="Include">
+            <e p="GetPostsQuery.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="EFCoreCosmos.Console" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="appsettings.Local.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EFCoreCosmos.Console.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="EFCoreCosmos.Console.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="EFCoreCosmos.Domain" t="IncludeRecursive">
+        <e p="Author.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Category.cs" t="Include" />
+        <e p="EFCoreCosmos.Domain.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="EFCoreCosmos.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Post.cs" t="Include" />
+      </e>
+      <e p="EFCoreCosmos.Persistence" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BlogDbContext.cs" t="Include" />
+        <e p="EFCoreCosmos.Persistence.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="EFCoreCosmos.Persistence.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="EFCoreCosmos.sln" t="IncludeFlat" />
+      <e p="EFCoreCosmos.Web" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientApp" t="Include">
+          <e p=".angular-cli.json" t="Include" />
+          <e p=".editorconfig" t="Include" />
+          <e p=".gitignore" t="Include" />
+          <e p="e2e" t="Include">
+            <e p="app.e2e-spec.ts" t="Include" />
+            <e p="app.po.ts" t="Include" />
+            <e p="tsconfig.e2e.json" t="Include" />
+          </e>
+          <e p="karma.conf.js" t="Include" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="protractor.conf.js" t="Include" />
+          <e p="README.md" t="Include" />
+          <e p="src" t="Include">
+            <e p="app" t="Include">
+              <e p="app.component.css" t="Include" />
+              <e p="app.component.html" t="Include" />
+              <e p="app.component.ts" t="Include" />
+              <e p="app.module.ts" t="Include" />
+              <e p="counter" t="Include">
+                <e p="counter.component.html" t="Include" />
+                <e p="counter.component.spec.ts" t="Include" />
+                <e p="counter.component.ts" t="Include" />
+              </e>
+              <e p="fetch-data" t="Include">
+                <e p="fetch-data.component.html" t="Include" />
+                <e p="fetch-data.component.ts" t="Include" />
+              </e>
+              <e p="home" t="Include">
+                <e p="home.component.html" t="Include" />
+                <e p="home.component.ts" t="Include" />
+              </e>
+              <e p="nav-menu" t="Include">
+                <e p="nav-menu.component.css" t="Include" />
+                <e p="nav-menu.component.html" t="Include" />
+                <e p="nav-menu.component.ts" t="Include" />
+              </e>
+            </e>
+            <e p="assets" t="Include">
+              <e p=".gitkeep" t="Include" />
+            </e>
+            <e p="environments" t="Include">
+              <e p="environment.prod.ts" t="Include" />
+              <e p="environment.ts" t="Include" />
+            </e>
+            <e p="index.html" t="Include" />
+            <e p="main.ts" t="Include" />
+            <e p="polyfills.ts" t="Include" />
+            <e p="styles.css" t="Include" />
+            <e p="test.ts" t="Include" />
+            <e p="tsconfig.app.json" t="Include" />
+            <e p="tsconfig.spec.json" t="Include" />
+            <e p="typings.d.ts" t="Include" />
+          </e>
+          <e p="tsconfig.json" t="Include" />
+          <e p="tslint.json" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="SampleDataController.cs" t="Include" />
+        </e>
+        <e p="EFCoreCosmos.Web.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="EFCoreCosmos.Web.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="favicon.ico" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Presentation" t="Include" />
+    </e>
+  </component>
+</project>

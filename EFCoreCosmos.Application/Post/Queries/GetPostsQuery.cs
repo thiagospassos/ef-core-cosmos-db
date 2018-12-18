@@ -18,13 +18,7 @@ namespace EFCoreCosmos.Application.Post.Queries
 
         public async Task<IEnumerable<PostModel>> Execute()
         {
-            return await _dbContext.Posts.Select(p => new PostModel
-            {
-                Author = p.Author.Name,
-                Category = p.Category.Name,
-                Id = p.Id,
-                Title = p.Title
-            }).ToListAsync();
+            return await _dbContext.Posts.Select(PostModel.Projection).ToListAsync();
         }
     }
 

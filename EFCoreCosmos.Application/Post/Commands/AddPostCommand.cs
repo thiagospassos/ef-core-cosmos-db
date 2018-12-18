@@ -1,7 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using EFCoreCosmos.Application.Post.Models;
 using EFCoreCosmos.Persistence;
 using Serilog;
+using System;
+using System.Threading.Tasks;
 
 namespace EFCoreCosmos.Application.Post.Commands
 {
@@ -14,16 +15,18 @@ namespace EFCoreCosmos.Application.Post.Commands
             _dbContext = dbContext;
         }
 
-        public async Task<Domain.Post> Execute(Domain.Post entity)
+        public async Task<PostModel> Execute(PostModel model)
         {
+            var entity = new Domain.Post();
             try
             {
+                model.Bind(entity);
                 await _dbContext.Posts.AddAsync(entity);
                 await _dbContext.SaveChangesAsync();
                 Log
                     .ForContext("post", entity)
                     .Information("Post added successfully");
-                return entity;
+                return PostModel.Projection.Compile().Invoke(entity);
             }
             catch (Exception ex)
             {
@@ -37,6 +40,6 @@ namespace EFCoreCosmos.Application.Post.Commands
     }
     public interface IAddPostCommand
     {
-        Task<Domain.Post> Execute(Domain.Post entity);
+        Task<PostModel> Execute(PostModel model);
     }
 }

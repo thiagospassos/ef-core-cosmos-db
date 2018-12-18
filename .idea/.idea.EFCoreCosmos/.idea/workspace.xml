@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a93c92b-ce1e-43ac-980f-55e3b9ab2b5d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreCosmos/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreCosmos/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreCosmos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreCosmos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.EFCoreCosmos/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCoreCosmos.Console/EFCoreCosmos.Console.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreCosmos.Console/EFCoreCosmos.Console.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCoreCosmos.Domain/Post.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreCosmos.Domain/Post.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCoreCosmos.Persistence/BlogDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreCosmos.Persistence/BlogDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCoreCosmos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EFCoreCosmos.sln" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BlogDbContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Persistence/BlogDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <marker date="1545053507422" expanded="false" signature="6:276" ph="..." />
+                <marker date="1545053507422" expanded="true" signature="312:1881" ph="{...}" />
+                <marker date="1545053507422" expanded="true" signature="357:1879" ph="{...}" />
+                <marker date="1545053507422" expanded="true" signature="434:454" ph="{...}" />
+                <marker date="1545053507422" expanded="true" signature="489:509" ph="{...}" />
+                <marker date="1545053507422" expanded="true" signature="741:1300" ph="{...}" />
+                <marker date="1545053507422" expanded="true" signature="977:1227" ph="/* modelBuilder.Entity&lt;Post&gt;().Metadata.Cosmos().ContainerName = nameof(Posts); ... */" />
+                <marker date="1545053507422" expanded="true" signature="1371:1873" ph="{...}" />
+                <marker date="1545053507422" expanded="true" signature="1667:1863" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Web/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+              <folding>
+                <marker date="1545053953621" expanded="false" signature="6:284" ph="..." />
+                <marker date="1545053953621" expanded="true" signature="312:2242" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="339:2240" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="398:461" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="684:1022" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="923:1010" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="1210:2234" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="1257:1334" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="1351:1461" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="1606:1772" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="1805:2222" ph="{...}" />
+                <marker date="1545053953621" expanded="true" signature="1836:1982" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
+                <marker date="1545053953621" expanded="true" signature="2079:2208" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+              <folding>
+                <marker date="1544750974492" expanded="false" signature="6:483" ph="..." />
+                <marker date="1544750974492" expanded="true" signature="514:4084" ph="{...}" />
+                <marker date="1544750974492" expanded="true" signature="534:4082" ph="{...}" />
+                <marker date="1544750974492" expanded="false" signature="705:2184" ph="{...}" />
+                <marker date="1544750974492" expanded="true" signature="896:2007" ph="{...}" />
+                <marker date="1544750974492" expanded="true" signature="1106:1169" ph="{...}" />
+                <marker date="1544750974492" expanded="false" signature="2225:2556" ph="{...}" />
+                <marker date="1544750974492" expanded="true" signature="2602:3602" ph="{...}" />
+                <marker date="1544750974492" expanded="true" signature="3055:3290" ph="{...}" />
+                <marker date="1544750974492" expanded="true" signature="3675:4076" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.Local.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/appsettings.Local.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/EFCoreCosmos.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCoreCosmos.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCoreCosmos.Application/Post/Models/PostModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCoreCosmos.Application/Post/Queries/GetPostsQuery.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCoreCosmos.Domain/Author.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCoreCosmos.Persistence/BlogDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EFCoreCosmos.Persistence/BlogDbContext.cs" />
+        <option value="$PROJECT_DIR$/EFCoreCosmos.Web/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/EFCoreCosmos.Web/ClientApp/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="870" />
+    <option name="y" value="285" />
+    <option name="width" value="2100" />
+    <option name="height" value="1500" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EFCoreCosmos (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EFCoreCosmos (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Presentation" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EFCoreCosmos (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Presentation" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EFCoreCosmos.Web" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EFCoreCosmos (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EFCoreCosmos.Persistence" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NorthwindTraders/Northwind.sln" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Presentation\EFCoreCosmos.Console">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+    <configuration name="Presentation\EFCoreCosmos.Console" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/EFCoreCosmos.Console/bin/Debug/netcoreapp2.1/EFCoreCosmoDbSample.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EFCoreCosmos.Console" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/EFCoreCosmos.Console/EFCoreCosmos.Console.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.Presentation\EFCoreCosmos.Console" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Presentation\EFCoreCosmos.Console" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a93c92b-ce1e-43ac-980f-55e3b9ab2b5d" name="Default" comment="" />
+      <created>1544793841779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544793841779</updated>
+      <workItem from="1544793843191" duration="1061000" />
+      <workItem from="1545052895953" duration="1958000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3019000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32994527" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15387674" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3995309" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Domain/Author.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1544750546672" expanded="true" signature="44:162" ph="{...}" />
+            <marker date="1544750546672" expanded="true" signature="70:160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Persistence/BlogDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <marker date="1545053507422" expanded="false" signature="6:276" ph="..." />
+            <marker date="1545053507422" expanded="true" signature="312:1881" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="357:1879" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="434:454" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="489:509" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="741:1300" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="977:1227" ph="/* modelBuilder.Entity&lt;Post&gt;().Metadata.Cosmos().ContainerName = nameof(Posts); ... */" />
+            <marker date="1545053507422" expanded="true" signature="1371:1873" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="1667:1863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <folding>
+            <marker date="1544750974492" expanded="false" signature="6:483" ph="..." />
+            <marker date="1544750974492" expanded="true" signature="514:4084" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="534:4082" ph="{...}" />
+            <marker date="1544750974492" expanded="false" signature="705:2184" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="896:2007" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="1106:1169" ph="{...}" />
+            <marker date="1544750974492" expanded="false" signature="2225:2556" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="2602:3602" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="3055:3290" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="3675:4076" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Application/Post/Models/PostModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1544712832952" expanded="true" signature="90:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/appsettings.Local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Application/Post/Queries/GetPostsQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1544750949507" expanded="false" signature="6:195" ph="..." />
+            <marker date="1544750949507" expanded="true" signature="244:903" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="294:804" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="406:462" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="523:798" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="614:772" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="841:901" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Persistence/EFCoreCosmos.Persistence.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Application/Post/Models/PostModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1544712832952" expanded="true" signature="90:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Application/Post/Queries/GetPostsQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1544750949507" expanded="false" signature="6:195" ph="..." />
+            <marker date="1544750949507" expanded="true" signature="244:903" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="294:804" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="406:462" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="523:798" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="614:772" ph="{...}" />
+            <marker date="1544750949507" expanded="true" signature="841:901" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Domain/Author.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1544750546672" expanded="true" signature="44:162" ph="{...}" />
+            <marker date="1544750546672" expanded="true" signature="70:160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/EFCoreCosmos.Console.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="96" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="96" column="48" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+          <folding>
+            <marker date="1544750974492" expanded="false" signature="6:483" ph="..." />
+            <marker date="1544750974492" expanded="true" signature="514:4084" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="534:4082" ph="{...}" />
+            <marker date="1544750974492" expanded="false" signature="705:2184" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="896:2007" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="1106:1169" ph="{...}" />
+            <marker date="1544750974492" expanded="false" signature="2225:2556" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="2602:3602" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="3055:3290" ph="{...}" />
+            <marker date="1544750974492" expanded="true" signature="3675:4076" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Console/appsettings.Local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Persistence/BlogDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <marker date="1545053507422" expanded="false" signature="6:276" ph="..." />
+            <marker date="1545053507422" expanded="true" signature="312:1881" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="357:1879" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="434:454" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="489:509" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="741:1300" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="977:1227" ph="/* modelBuilder.Entity&lt;Post&gt;().Metadata.Cosmos().ContainerName = nameof(Posts); ... */" />
+            <marker date="1545053507422" expanded="true" signature="1371:1873" ph="{...}" />
+            <marker date="1545053507422" expanded="true" signature="1667:1863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EFCoreCosmos.Web/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+          <folding>
+            <marker date="1545053953621" expanded="false" signature="6:284" ph="..." />
+            <marker date="1545053953621" expanded="true" signature="312:2242" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="339:2240" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="398:461" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="684:1022" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="923:1010" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="1210:2234" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="1257:1334" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="1351:1461" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="1606:1772" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="1805:2222" ph="{...}" />
+            <marker date="1545053953621" expanded="true" signature="1836:1982" ph="/* To learn more about options for serving an Angular SPA from ASP.NET Core, ... */" />
+            <marker date="1545053953621" expanded="true" signature="2079:2208" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
